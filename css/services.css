@@ -1,0 +1,15 @@
+.services {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.services .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Change à 'space-around' pour un espacement uniforme */
+}
+

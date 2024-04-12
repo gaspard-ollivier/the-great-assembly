@@ -1,0 +1,28 @@
+body {
+    font-family: courier;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: Broadway;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    display: inline-block; 
+    padding: 8px 16px; 
+    background-color: #30a15e; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+
+
+img{
+    width:200px;
+}
+
+

@@ -1,0 +1,23 @@
+.card {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px; /* Ajuste la marge du bas pour un espacement uniforme */
+    border-radius: 5px;
+    text-align: center;
+    flex-basis: calc(33.333% - 20px); /* Ajuste pour 3 cartes par ligne, soustrait la marge */
+    box-sizing: border-box; /* Assure que le padding et la bordure sont inclus dans la largeur */
+}
+
+@media (max-width: 960px) {
+    .card {
+        flex-basis: calc(50% - 20px); /* Ajuste pour 2 cartes par ligne sur écrans plus petits */
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        flex-basis: 100%; /* Une carte par ligne sur très petits écrans */
+    }
+}
+
+

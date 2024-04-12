@@ -1,0 +1,15 @@
+.about-content {
+    display: flex;
+    align-items: center; /* Centre les éléments verticalement */
+    justify-content: space-between; /* Répartit l'espace entre le texte et l'image */
+}
+
+.about-text {
+    flex: 1; /* Permet au texte de remplir l'espace disponible */
+    padding-right: 20px; /* Ajoute un peu d'espace entre le texte et l'image */
+}
+
+.about-image img {
+    max-width: 75%; /* Ajuste ceci selon la taille désirée pour ton image */
+    height: auto; /* Maintient le ratio de l'image */
+}
